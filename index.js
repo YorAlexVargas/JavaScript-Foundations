@@ -88,11 +88,11 @@ function mortgageCalculator(principal, interestRate, years){
 Then, add control flow within your function such that IF creditScore is above 740, interest rate drops by 0.5%, if credit score is below 660, interest rate increases by 0.5% and if credit score is anywhere between 660 and 740 interest rate doesn't change.
 */
 
-funtion whatScore(){
+function whatScore(score){
 
-    if(score >= 740)
+    if(score >= 740){
 
-    console.log(".5% off")
+    console.log(".5% off")}
 
     else{
         console.log("pay up buddy")
@@ -101,7 +101,7 @@ funtion whatScore(){
 
 }
 
-
+console.log(whatScore(400))
 
 // 🏡 Task 6: Loops
 /* Write a new function called variableInterestRate. This function should be the same as mortgageCalculator, except it should console.log the monthly payment for 10 different interest rates at 0.5% increments plus or minus 2% from the inputted interest rate. Complete these calculations using a for loop.
@@ -119,13 +119,13 @@ For example, variableInterestRate(200000, 0.04, 30) should console.log:
 "{Name}, with an interest rate of 0.06, your monthly rate is $1199"
 */
 
-function variableInterestRate{
+function variableInterestRate(){
 
     for (let i = 0; i < 10; i++)
 
 }
 
-
+console.log(variableInterestRate())
 // 🌟🌟🌟 STRETCH 🌟🌟🌟//
 
 /* Attempt any of the stretch goals below once you have finished the work above. Remember as always, these may require additional research beyond what you learned today */

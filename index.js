@@ -47,7 +47,7 @@ If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly 
 
 For example,
 mortgageCalculator(2000000, 0.05, 30); <-- should return 1,073.64
-*/
+*///
 
 
 
